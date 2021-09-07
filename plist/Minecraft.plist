@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Kasar.Minecraft</string>
+				<string>com.NezKo.Minecraft</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Kasar - Minecraft</string>
+				<string>NezKo - Minecraft</string>
 			</dict>
 		</dict>
 	</array>
