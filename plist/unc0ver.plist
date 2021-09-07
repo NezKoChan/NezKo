@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Kasar.unc0ver</string>
+				<string>com.NezKo.unc0ver</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Kasar - unc0ver</string>
+				<string>NezKo - unc0ver</string>
 			</dict>
 		</dict>
 	</array>
