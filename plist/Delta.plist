@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Kasar.Delta</string>
+				<string>com.NezKo.Delta</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Kasar - Delta</string>
+				<string>NezKo - Delta</string>
 			</dict>
 		</dict>
 	</array>
