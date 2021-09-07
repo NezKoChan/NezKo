@@ -118,7 +118,7 @@ border-radius: 23.3%;
 }
 .pages h1 {
 font-size: 17px;
-color: #000;
+color: #fff;
 text-align: justify;
 margin-top: 2px;
 margin-bottom: 0px;
@@ -189,7 +189,7 @@ text-decoration: none;
 }
 .apps h1 {
 font-size: 17px;
-color: #000;
+color: #fff;
 text-align: justify;
 margin-top: 2px;
 margin-bottom: 0px;
@@ -205,9 +205,8 @@ padding: 9px 17px 9px 37px;
 margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
-background-color: #EBEBEB;
+background-image: linear-gradient(45deg, rgba(255,255,255,.6) 0%, rgba(255,255,255,.1) 100%);;
 color: #000;
-border: 5px solid #EBEBEB;
 }
 #myUL {
 /* Remove default list styling */
