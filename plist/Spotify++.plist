@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Kasar.Spotify++</string>
+				<string>com.NezKo.Spotify++</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Kasar - Spotify++</string>
+				<string>NezKo - Spotify++</string>
 			</dict>
 		</dict>
 	</array>
