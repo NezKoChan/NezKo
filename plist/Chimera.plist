@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.Kasar.Chimera</string>
+				<string>com.NezKo.Chimera</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>Kasar - Chimera</string>
+				<string>NezKo - Chimera</string>
 			</dict>
 		</dict>
 	</array>
