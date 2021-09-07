@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Kasar Search</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover minimal-ui standalone">
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="KasarIcon.png"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<div class="name">
+<h1>Search</h1>
+</div>
+<br>
+<br>
+<br>
+<center>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for apps">
+<ul id="myUL">
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Minecraft.plist">Get</a>
+<img src="https://icons.appinstallerios.com/MinecraftIcon.png">
+<h1>Minecraft</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Electra.plist">Get</a>
+<img src="https://icons.appinstallerios.com/ElectraIcon.png">
+<h1>Electra</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Chimera.plist">Get</a>
+<img src="https://icons.appinstallerios.com/ChimeraIcon.png">
+<h1>Chimera</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Odyssey.plist">Get</a>
+<img src="https://icons.appinstallerios.com/OdysseyIcon.png">
+<h1>Odyssey</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/PicsArt++.plist">Get</a>
+<img src="https://icons.appinstallerios.com/PicsArt++Icon.png">
+<h1>PicsArt++</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Taurine.plist">Get</a>
+<img src="https://icons.appinstallerios.com/TaurineIcon.png">
+<h1>Taurine</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/iNDS.plist">Get</a>
+<img src="https://icons.appinstallerios.com/iNDSIcon.png">
+<h1>iNDS</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Delta.plist">Get</a>
+<img src="https://icons.appinstallerios.com/DeltaIcon.png">
+<h1>Delta</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/unc0ver.plist">Get</a>
+<img src="https://icons.appinstallerios.com/Unc0verIcon.png">
+<h1>unc0ver</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Fortnite.plist">Get</a>
+<img src="https://icons.appinstallerios.com/FortniteIcon.png">
+<h1>Fortnite</h1>
+</div>
+</li>
+<li>
+<div class="apps">
+<a href="itms-services://?action=download-manifest&url=https://kasarkhatari.github.io/plist/Spotify++.plist">Get</a>
+<img src="https://icons.appinstallerios.com/SpotifyIcon.png">
+<h1>Spotify++</h1>
+</div>
+</li>
+</ul>
+</center>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, div, h1, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    h1 = li[i].getElementsByTagName("h1")[0];
+    txtValue = h1.textContent || h1.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+</center>
+<br>
+<br>
+<br>
+<br>
+<div class="nav">	
+<a href="Sections" class="tab">rectangle_stack_fill</a>
+<a href="https://kasarkhatari.github.io/" class="tab">house_fill</a>
+<a href="Search" class="tab">search_fill</a>
+</div>
+</html>
