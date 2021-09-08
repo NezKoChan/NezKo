@@ -208,9 +208,11 @@ padding: 9px 17px 9px 37px;
 margin-bottom: 9px;
 margin: 10px;
 border-radius:20px;
-background-color: #EBEBEB;
+background-color: rgb(255,255,255,.6);
 color: #000;
-border: 5px solid #EBEBEB;
+border: 5px solid rgb(255,255,255,.6);
+-webkit-backdrop-filter: saturate(180%) blur(20px);
+backdrop-filter: saturate(180%) blur(20px);
 }
 #myUL {
 /* Remove default list styling */
