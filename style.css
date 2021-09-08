@@ -195,18 +195,25 @@ margin-top: 2px;
 margin-bottom: 0px;
 margin-left: 60px;
 }
-#myInput {	
-background-position: 10px 12px;
-background-repeat: no-repeat;
-width: 70%;
-height: 2.5%;
-font-size: 16px;
-padding: 9px 17px 9px 37px;
-margin-bottom: 9px;
-margin: 10px;
-border-radius:20px;
-background: linear-gradient(45deg, rgba(255,255,255,.6) 0%, rgba(255,255,255,.1) 100%);;
-color: #fff;
+
+@supports (
+  (-webkit-backdrop-filter: blur(20px)) or (backdrop-filter: blur(20px))
+) {
+  #myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 2.5%;
+    font-size: 16px;
+    padding: 9px 17px 9px 37px;
+    margin-bottom: 9px;
+    margin: 10px;
+    border-radius:20px;
+    color: #fff;
+    background-color: rgb(255,255,255,.6);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+  }
 }
 #myUL {
 /* Remove default list styling */
